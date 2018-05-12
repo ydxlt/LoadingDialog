@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@android:color/transparent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/corner_white_bg"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_share_weixin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_share_weixin"
+            android:drawablePadding="6dp"
+            android:background="@null"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:text="@string/weixin"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_share_moments"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_share_moments"
+            android:drawablePadding="6dp"
+            android:background="@null"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:text="@string/moments"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_share_qq"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_share_qq"
+            android:drawablePadding="6dp"
+            android:background="@null"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:text="@string/qq"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_share_qq_space"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_share_zone"
+            android:drawablePadding="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:background="@null"
+            android:text="@string/qq_space"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/cancel"
+        android:background="@drawable/corner_white_bg"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -14,4 +14,10 @@
         android:onClick="login"
         android:text="login"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:text="ios_dialog"
+        android:onClick="showIosDialog"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

@@ -12,4 +12,9 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
+    <style name="IosDialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/sharepop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/sharepop_exit_anim</item>
+    </style>
 </resources>
